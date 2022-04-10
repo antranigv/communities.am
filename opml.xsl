@@ -193,12 +193,11 @@
       </head>
       <body>
         <h1><span class='at arm'><xsl:value-of select="head/title"/></span></h1>
-        <p id="nav"><a href="{head/ownerId}">Blog</a> &#8901; <a href="{head/docs}">About OPML</a></p>
-        <p><xsl:value-of select="head/description"/></p> 
         <xsl:apply-templates select="body/outline"/>
       </body>
     </html>
   </xsl:template>
+  <!--
   <xsl:template match="outline">
     <xsl:choose>
       <xsl:when test="@type">
@@ -225,9 +224,11 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:choose>
+  -->
           <!-- Check if there are any child elements that will need expanding -->
           <xsl:when test="*">
             <!-- Create permalink, removing the emoji -->
+            <!--
             <xsl:variable name="Permalink" select="translate(@text,$uppercase,$lowercase)" />
             <details id="{$Permalink}">
               <summary>
@@ -247,4 +248,5 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+            -->
 </xsl:stylesheet>
