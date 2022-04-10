@@ -202,6 +202,7 @@
       </body>
     </html>
   </xsl:template>
+  <!--
   <xsl:template match="outline">
     <xsl:choose>
       <xsl:when test="@type">
@@ -228,9 +229,13 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:choose>
+  -->
           <!-- Check if there are any child elements that will need expanding -->
+          <!--
           <xsl:when test="*">
+          -->
             <!-- Create permalink, removing the emoji -->
+            <!--
             <xsl:variable name="Permalink" select="translate(@text,$uppercase,$lowercase)" />
             <details id="{$Permalink}">
               <summary>
@@ -250,4 +255,5 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+            -->
 </xsl:stylesheet>
