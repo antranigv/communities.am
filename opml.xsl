@@ -144,11 +144,11 @@ extension-element-prefixes="str">
           color:#ccc;
           }
           a, a:visited {
-          color: #ccc
+          color: #ccc;
           text-decoration: underline;
           }
           a:hover, a:visited:hover, a:active {
-          color: #ddd
+          color: #ddd;
           text-decoration: underline;
           }
           }
