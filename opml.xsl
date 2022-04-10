@@ -201,7 +201,10 @@
       </head>
       <body>
         <h1><span class='at arm'><xsl:value-of select="head/title"/></span></h1>
-        <xsl:apply-templates select="body/outline"/>
+    <xsl:for-each select="body/outline">
+   <fieldset class="arm"><legend><xsl:value-of select="@text"/></legend>
+   </fieldset>
+    </xsl:for-each>
       </body>
     </html>
   </xsl:template>
