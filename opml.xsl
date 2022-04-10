@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xml:lang="en-SG" extension-element-prefixes="str">
   <xsl:stylesheet version="1.0" xml:lang="en-SG" extension-element-prefixes="str">
     <xsl:template match="/opml">
