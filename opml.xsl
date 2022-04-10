@@ -196,6 +196,19 @@ extension-element-prefixes="str">
           .at {
           color:#ddd;
           }
+          legend {
+          background-color:black;
+          color:#ddd;
+          }
+          fieldset {
+          background-color:#000;
+          }
+          li {
+          color:#ccc;
+          }
+          li p {
+          color:#ccc;
+          }
           }
         </style>
       </head>
