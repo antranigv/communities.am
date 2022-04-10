@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" media="screen" href="opml.xsl"?>
 <opml version="2.0">
 	<head>
 		<title>Համայնքներ</title>
@@ -9,15 +8,19 @@
 		<ownerName></ownerName>
 		<ownerId>http://twitter.com/undefined</ownerId>
 		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
-		<dateModified>Sun, 10 Apr 2022 14:36:13 GMT</dateModified>
-		<expansionState>1,5,6</expansionState>
-		<lastCursor>2</lastCursor>
+		<dateModified>Sun, 10 Apr 2022 15:54:38 GMT</dateModified>
+		<expansionState>1,3,5,7,8</expansionState>
+		<lastCursor>6</lastCursor>
 		</head>
 	<body>
 		<outline text="Ո՞ւր եմ ես" created="Sun, 10 Apr 2022 13:32:50 GMT">
 			<outline text="Համայնքներ.հայ֊ը Հայաստանեան եւ Հայերէն ՏՏ համայնքների տուեալների հաւաքագրման կայք է։" created="Sun, 10 Apr 2022 13:36:11 GMT"/>
-			<outline text="Կայքը վարում է &lt;a href=&quot;https://antranigv.am/&quot;&gt;Անդրանիկ Վարդանեան&lt;/a&gt;ը։" created="Sun, 10 Apr 2022 13:32:56 GMT"/>
-			<outline text="Կարող ես աւելացնել քո համայնքն &lt;a href=&quot;https://github.com/antranigv/communities.am/&quot;&gt;այստեղ&lt;/a&gt;։" created="Sun, 10 Apr 2022 13:33:11 GMT"/>
+			<outline text="Կայքը վարում է Անդրանիկ Վարդանեանը։" created="Sun, 10 Apr 2022 13:32:56 GMT">
+				<outline text="antranigv" created="Sun, 10 Apr 2022 15:51:59 GMT" type="link" url="https://antranigv.am/"/>
+				</outline>
+			<outline text="Կարող ես աւելացնել նաեւ քո համայնքը։" created="Sun, 10 Apr 2022 13:33:11 GMT">
+				<outline text="GitHub: antranigv/communities.am" created="Sun, 10 Apr 2022 15:53:08 GMT" type="link" url="https://github.com/antranigv/communities.am"/>
+				</outline>
 			</outline>
 		<outline text="Systems We Love" created="Sun, 10 Apr 2022 13:32:49 GMT">
 			<outline text="Կայք" created="Sun, 10 Apr 2022 13:33:41 GMT" link="https://swl.am/" type="link" url="https://swl.am/">
