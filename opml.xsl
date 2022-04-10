@@ -226,7 +226,9 @@
         <xsl:choose>
   -->
           <!-- Check if there are any child elements that will need expanding -->
+          <!--
           <xsl:when test="*">
+          -->
             <!-- Create permalink, removing the emoji -->
             <!--
             <xsl:variable name="Permalink" select="translate(@text,$uppercase,$lowercase)" />
