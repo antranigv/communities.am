@@ -196,19 +196,6 @@ extension-element-prefixes="str">
           .at {
           color:#ddd;
           }
-          legend {
-          background-color:black;
-          color:#ddd;
-          }
-          fieldset {
-          background-color:#000;
-          }
-          li {
-          color:#ccc;
-          }
-          li p {
-          color:#ccc;
-          }
           }
         </style>
       </head>
@@ -216,13 +203,20 @@ extension-element-prefixes="str">
         <h1><span class='at arm'><xsl:value-of select="head/title"/></span></h1>
         <xsl:for-each select="body/outline">
           <fieldset class="arm"><legend><xsl:value-of select="@text"/></legend>
-            <xsl:for-each select="outline">
-              <ul>
+            <ul>
+              <xsl:for-each select="outline">
                 <li>
-                  <p><xsl:value-of select="@text"/></p>
+                  <xsl:choose>
+                    <xsl:when test="@url">
+                      <a href="{@url}"><xsl:value-of select="@text"/></a>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="@text"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
                 </li>
-              </ul>
-            </xsl:for-each>
+              </xsl:for-each>
+            </ul>
           </fieldset>
         </xsl:for-each>
       </body>
