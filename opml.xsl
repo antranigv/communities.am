@@ -13,72 +13,6 @@ extension-element-prefixes="str">
     <head>
       <title><xsl:value-of select="head/title"/></title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <!--
-        <style type="text/css">
-        @charset "utf-8";
-        body {
-        background:white url("/haruhiism@2x.png") fixed bottom right no-repeat;
-        background-size:140px 149px;
-        border-top:10px solid #2a9c27;
-        color:black;
-        font:1em "Helvetica Neue","Liberation Sans",Arial,sans-serif;
-        line-height:24px;
-        margin:0;
-        overflow-y:scroll;
-        padding:40px 40px 200px 40px
-        }
-        h1      { letter-spacing:-1px }
-        a       { color:#036ad3 }
-        a:hover { text-decoration:none }
-        li      { list-style-type:disc }
-        summary { 
-        cursor:pointer;   /* indicate that it can be clicked on */
-        font-weight:bold;
-        line-height:26px;
-        }
-        summary:hover { background-color:rgba(3,106,211,0.1) }
-        summary:focus { outline: 0 }
-        /* Dave Winer's XML icon, approximated in CSS */
-        .rss { 
-        background:cornsilk;
-        border:1px outset cornsilk;
-        color:#ff6600;
-        display:inline-block;
-        font-size:10px;
-        font-weight:bold;
-        line-height:10px;
-        margin-right:0.6em;
-        padding:1px 6px;
-        text-decoration:none;
-        }
-        .rss:hover {
-        border:1px outset #ff6600;
-        background-color:#ff6600;
-        border:1px solid #8d3901;
-        border-top-color:#ffbb8f;
-        border-left-color:#ffbb8f;
-        color:white;
-        }
-
-        /* Retina-grade displays */
-        @media (min-resolution: 144dpi) {
-        background-image:url("/haruhiism@2x.png");
-        background-size:140px 149px;
-        }
-
-        /* Dark mode displays */
-        @media (prefers-color-scheme: dark) {
-        body { 
-        background-color:black;
-        border-top:10px solid maroon;
-        color:darkgrey
-        }
-        summary:hover { background: midnightblue }
-        h1,summary { color:white }
-        a { color:skyblue }
-        }
-        </style>
-      -->
         <style>
           body {
           color: #222;
@@ -208,6 +142,14 @@ extension-element-prefixes="str">
           }
           li p {
           color:#ccc;
+          }
+          a, a:visited {
+          color: #ccc
+          text-decoration: underline;
+          }
+          a:hover, a:visited:hover, a:active {
+          color: #ddd
+          text-decoration: underline;
           }
           }
         </style>
