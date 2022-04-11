@@ -9,8 +9,8 @@
 		<ownerName></ownerName>
 		<ownerId>http://twitter.com/undefined</ownerId>
 		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
-		<dateModified>Mon, 11 Apr 2022 09:54:33 GMT</dateModified>
-		<expansionState>1,3,5,7,8</expansionState>
+		<dateModified>Mon, 11 Apr 2022 10:08:37 GMT</dateModified>
+		<expansionState>1,3,5,7,8,12,16,17,24,26</expansionState>
 		<lastCursor>0</lastCursor>
 		</head>
 	<body>
@@ -25,10 +25,31 @@
 			</outline>
 		<outline text="Systems We Love" created="Sun, 10 Apr 2022 13:32:49 GMT" fieldset="true">
 			<outline text="Կայք" created="Sun, 10 Apr 2022 13:33:41 GMT" link="https://swl.am/" type="link" url="https://swl.am/">
-				<outline text="RSS Հոսք" created="Sun, 10 Apr 2022 13:34:17 GMT" type="link" url="https://swl.am/index.xml"/>
+				<outline text="RSS հոսք" created="Sun, 10 Apr 2022 13:34:17 GMT" type="link" url="https://swl.am/index.xml"/>
 				</outline>
 			<outline text="Մեդիա Սպասարկիչ" created="Sun, 10 Apr 2022 13:34:21 GMT" type="link" url="https://media.swl.am/"/>
-			<outline text="YouTube Ալիք" created="Sun, 10 Apr 2022 13:34:23 GMT" type="link" url="https://media.swl.am/"/>
+			<outline text="YouTube ալիք" created="Sun, 10 Apr 2022 13:34:23 GMT" type="link" url="https://media.swl.am/"/>
+			</outline>
+		<outline text="PYerevan" created="Mon, 11 Apr 2022 10:02:18 GMT" fieldset="true">
+			<outline text="Telegram ալիք" created="Mon, 11 Apr 2022 10:03:20 GMT" type="link" url="https://t.me/pyerevan"/>
+			<outline text="YouTube ալիք" created="Mon, 11 Apr 2022 10:03:12 GMT" type="link" url="https://www.youtube.com/channel/UCts4I-AIqZsyBMvVe4-j6Uw"/>
+			<outline text="Telegram խումբ (դինամիկ յղում)" created="Mon, 11 Apr 2022 10:04:38 GMT" type="link" url="https://t.me/joinchat/RRh1L-CzCvcB0NI7"/>
+			</outline>
+		<outline text="JavaScript" created="Mon, 11 Apr 2022 09:59:38 GMT" fieldset="true">
+			<outline text="Telegram խմբեր" created="Mon, 11 Apr 2022 10:00:10 GMT">
+				<outline text="JavaScript Armenia" created="Mon, 11 Apr 2022 10:00:16 GMT" type="link" url="https://t.me/JavaScriptArmenia"/>
+				<outline text="Node.js Armenia" created="Mon, 11 Apr 2022 10:00:23 GMT" type="link" url="https://t.me/nodejsarmenia"/>
+				<outline text="React Armenia" created="Mon, 11 Apr 2022 10:00:29 GMT" type="link" url="https://t.me/reactarmenia"/>
+				<outline text="Vue.js Armenia" created="Mon, 11 Apr 2022 10:00:35 GMT" type="link" url="https://t.me/vuejsarmenia"/>
+				</outline>
+			<outline text="YouTube ալիք" created="Mon, 11 Apr 2022 09:59:55 GMT" type="link" url="https://www.youtube.com/channel/UCL-LarRFFQcYdyqFhJ2Pw4w"/>
+			<outline text="GitHub" created="Mon, 11 Apr 2022 09:59:46 GMT" type="link" url="https://github.com/NodeJSArmenia"/>
+			</outline>
+		<outline text="Dart &amp; Flutter Armenia" created="Mon, 11 Apr 2022 10:02:22 GMT" fieldset="true">
+			<outline text="Telegram խումբ" created="Mon, 11 Apr 2022 10:06:32 GMT" type="link" url="https://t.me/flutterarmenia"/>
+			</outline>
+		<outline text="NetByThe.NET" created="Mon, 11 Apr 2022 10:02:34 GMT" fieldset="true">
+			<outline text="Telegram խումբ" created="Mon, 11 Apr 2022 10:07:34 GMT" type="link" url="https://t.me/netbythenet"/>
 			</outline>
 		</body>
 	</opml>
