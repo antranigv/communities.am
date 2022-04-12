@@ -36,7 +36,7 @@
         fieldset {
         border: 1px solid #aaa;
         background-color: #fff;
-        max-width: 850px;
+        max-width: 720px;
         margin: 0 auto;
         margin-bottom: 25px;
         }
@@ -160,6 +160,8 @@
     <body>
       <h1><span class='at arm'><xsl:value-of select="head/title"/></span></h1>
       <xsl:apply-templates select="body/outline"/>
+      <p class="footer">CC BY 4.0 | All Rights Reverse Engineered</p>
+      <p style="font-size: 10px;">Date modified: <xsl:value-of select="head/dateModified"/></p>
     </body>
   </html>
 </xsl:template>
@@ -179,7 +181,7 @@
             <a href="{@url}"><xsl:value-of select="@text"/></a>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:value-of select="@text"/>
+            <xsl:value-of select="@text" disable-output-escaping="yes"/>
           </xsl:otherwise>
         </xsl:choose>
         <xsl:choose>
