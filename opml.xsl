@@ -129,6 +129,7 @@
         @media (prefers-color-scheme: dark) {
         body {
         background-color:black;
+        color:#bbb;
         }
         .at {
         color:#ddd;
