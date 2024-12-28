@@ -10,9 +10,9 @@
 		<ownerName>Antranig Vartanian</ownerName>
 		<ownerId>http://twitter.com/undefined</ownerId>
 		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
-		<dateModified>Sun, 05 Feb 2023 01:26:17 GMT</dateModified>
+		<dateModified>Sat, 28 Dec 2024 18:23:21 GMT</dateModified>
 		<expansionState>1,4,6,7,11,13,15,17,18,25,27,29,30,33,37,39</expansionState>
-		<lastCursor>9</lastCursor>
+		<lastCursor>0</lastCursor>
 		</head>
 	<body>
 		<outline text="Ո՞ւր եմ ես" created="Sun, 10 Apr 2022 13:32:50 GMT" fieldset="true">
@@ -63,7 +63,7 @@
 		<outline text="PYerevan" created="Mon, 11 Apr 2022 10:02:18 GMT" fieldset="true">
 			<outline text="Telegram ալիք" created="Mon, 11 Apr 2022 10:03:20 GMT" type="link" url="https://t.me/pyerevan"/>
 			<outline text="YouTube ալիք" created="Mon, 11 Apr 2022 10:03:12 GMT" type="link" url="https://www.youtube.com/channel/UCts4I-AIqZsyBMvVe4-j6Uw"/>
-			<outline text="Telegram խումբ (դինամիկ յղում)" created="Mon, 11 Apr 2022 10:04:38 GMT" type="link" url="https://t.me/joinchat/RRh1L-CzCvcB0NI7"/>
+			<outline text="Telegram խումբ (դինամիկ յղում)" created="Mon, 11 Apr 2022 10:04:38 GMT" type="link" url="https://t.me/+hRp4bR_gwR45MDAy"/>
 			</outline>
 		<outline text="Rust" created="Sun, 05 Feb 2023 01:25:10 GMT">
 			<outline text="Rust Armenia" created="Sun, 05 Feb 2023 01:25:14 GMT" type="link" url="https://t.me/rustarmenia"/>
